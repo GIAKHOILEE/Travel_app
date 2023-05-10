@@ -1,0 +1,40 @@
+:root {
+  --font-family: 'Mada', sans-serif;
+  --background-gray:rgba(217, 217, 217, 0.3);
+  --text-gray:#828282;
+  --text-gray-pale:#E0E0E0;
+  --background-main: #F8F5E4;
+  --color-main: #F97300;
+  --text-main: #0E3047;
+  --btn-main: #10828C;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+}
+body {
+  margin: 40px 100px;
+  font-family: var(--font-family);
+  height: 100vh;
+  background-color: var(--background-main);
+  position: relative;
+}
+html {
+  /* font-size: 24px; */
+  /* font-weight: 700; */
+  line-height: 1.6rem; 
+}
+a{
+  text-decoration: none;
+  color: var(--text-main);
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}

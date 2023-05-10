@@ -1,0 +1,60 @@
+.container__header__namePayment {
+  display: flex;
+  align-items: center;
+}
+.container__header__namePayment__Name {
+  width: 100%;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  line-height: 77px;
+  letter-spacing: -0.231818px;
+  color: #f97300;
+}
+.payment__form {
+  width: 80%;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 80px 124px;
+}
+.payment__form__sub {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-main);
+}
+.payment__form__input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #858585;
+  height: 40px;
+  padding-left: 12px;
+  color: #858585;
+}
+.payment__booking {
+  width: 80%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment__price {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-main);
+}
+.payment__button {
+  background: var(--btn-main);
+  border-radius: 10px;
+  width: 256px;
+  height: 70px;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  border: none;
+}
+.icon:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
